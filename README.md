@@ -1,4 +1,4 @@
-# CRFSEG
+# Clarkson Rotated Fingerprint segmentation (CRFSEG) system
 This repo contains code to run CRFSEG (Clarkson Rotated Fingerprint Segmentation) model
 
 ## Pre-trained model
