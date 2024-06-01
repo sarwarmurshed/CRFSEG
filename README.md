@@ -1,4 +1,4 @@
-## Project Title: Clarkson Rotated Fingerprint Segmentation (CRFSEG) system 
+## Clarkson Rotated Fingerprint Segmentation (CRFSEG) system 
 This repository is associated with a research initiative exploring deep learning-based solutions for slap fingerprint segmentation. It contains the code for the CRFSEG (Clarkson Rotated Fingerprint Segmentation) model, specifically designed to segment slap fingerprint images. It also contains code to develop a transformer-based slap segmentation system (TransSEG) by leveraging [FPNFormer](https://ieeexplore.ieee.org/abstract/document/10384424). 
 
 ## Project Overview
@@ -32,22 +32,12 @@ further comparison of CRFSEG with state-of-the-art deep learning-based image seg
 ## Data Availability Statement
 The fingerprint dataset used in this research, collected under IRB-approved protocol, contains sensitive information about juvenile subjects and cannot be publicly shared due to legal and ethical constraints. However, to facilitate further research, interested parties can provide their code/models to the corresponding authors. The authors will evaluate the provided code/models on the slap fingerprint dataset and share the anonymized results with the requesting party.
 
-
-## Pre-trained model
-* A pre-trained model is stored in the trained_model folder.
-
-## Test images 
-* A few test images are stored in the test_image folder to test the model.
-
-## How to run the pre-trained model on an image
-* The CRFSEG.ipynb file contains the necessary code to run the model. 
-* Run Jupiter notebook on your computer and execute the code inside CRFSEG.ipynb file.
-* The final cell of the notebook code will show the output images containing the labels and bounding boxes around the fingerprints.
+## Code details
+* The crfseg folder contains resources related to the CRFSEG model
+* The transSEG folder contains resources related to the TransSEG model 
 
 ## Citation
 If you find this work useful in your research, please cite our paper:
-### Citation
-
 ```bibtex
 @article{murshed2023deep,
   title={Deep Age-Invariant Fingerprint Segmentation System},
