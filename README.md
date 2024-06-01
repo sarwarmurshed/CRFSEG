@@ -1,5 +1,5 @@
-# Project Title: Clarkson Rotated Fingerprint Segmentation (CRFSEG) system 
-This repository is associated with a research initiative exploring deep learning-based solutions for slap fingerprint segmentation. It contains the code for the CRFSEG (Clarkson Rotated Fingerprint Segmentation) model, specifically designed to segment slap fingerprint images. It also contains code to develop a transformer-based slap segmentation system (TransSEG) by leveraging [FPNFormer](https://ieeexplore.ieee.org/abstract/document/10384424)
+## Project Title: Clarkson Rotated Fingerprint Segmentation (CRFSEG) system 
+This repository is associated with a research initiative exploring deep learning-based solutions for slap fingerprint segmentation. It contains the code for the CRFSEG (Clarkson Rotated Fingerprint Segmentation) model, specifically designed to segment slap fingerprint images. It also contains code to develop a transformer-based slap segmentation system (TransSEG) by leveraging [FPNFormer](https://ieeexplore.ieee.org/abstract/document/10384424). 
 
 ## Project Overview
 In this research, we developed a deep learning-based method for generating arbitrarily angled bounding boxes to precisely localize and
