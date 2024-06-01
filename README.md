@@ -8,9 +8,7 @@ In this research, we developed a deep learning-based method for generating arbit
 label fingerprints in both axis-aligned and over-rotated slap images. We present CRFSEG (Clarkson Rotated Fingerprint Segmentation
 Model), an improvement upon the Faster R-CNN algorithm, incorporating arbitrarily-angled bounding boxes for enhanced performance
 on challenging slap images. Here is the complete architecture of the Clarkson Rotated Fingerprint Segmentation (CRFSEG) system.
-![CRESEG](imgs/crfsegArch.png)
-
-<img src="imgs/crfsegArch.png" width="50%" height="50%" alt="CRFSEG">
+<img src="imgs/crfsegArch.png" width="70%" height="70%" alt="CRFSEG">
 
 CRFSEG demonstrates consistent results across different age groups and effectively handles over-rotated
 slap images. We evaluated CRFSEG against the widely used slap segmentation systems NFSEG and VeriFinger. Additionally, we
