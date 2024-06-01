@@ -21,7 +21,6 @@ further comparison of CRFSEG with state-of-the-art deep learning-based image seg
 3. It is also easily deployable and adaptable to new datasets with minimal fine-tuning using a small number of images.  
 
 ## Contributions
-
 1. Two new in-house large datasets named Combined and Challenging slap datasets contain 133,611 slap fingerprint images of children and adults.
 2. Annotated all slap fingerprint images manually to establish a ground-truth baseline for the accuracy assessment of different fingerprint segmentation systems.
 3. Developed a novel age-invariant deep learning-based slap segmentation model (viz. CRFSEG), that can handle arbitrarily oriented fingerprints of adult and juvenile subjects.
