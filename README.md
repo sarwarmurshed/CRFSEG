@@ -10,6 +10,14 @@ slap images. We evaluated CRFSEG against the widely used slap segmentation syste
 leveraged a transformer-based vision architecture to build TransSEG (Transformer-based Slap Segmentation System), a new model for
 further comparison of CRFSEG with state-of-the-art deep learning-based image segmentation models.
 
+## Key Features
+
+1. Two new in-house large datasets named Combined and Challenging slap datasets contain 133,611 slap fingerprint images of children and adults.
+2. Annotated all slap fingerprint images manually to establish a ground-truth baseline for the accuracy assessment of different fingerprint segmentation systems.
+3. Developed a novel age-invariant deep learning-based slap segmentation model (viz. CRFSEG), that can handle arbitrarily oriented fingerprints of adult and juvenile subjects.
+4. Built a transformer-based fingerprint segmentation model named TransSEG to compare CRFSEG with this state-of-the-art deep learning model.
+5. Evaluated the performance of state-of-the-art commercial and non-commercial fingerprint segmentation systems named VeriFinger, and NFSEG on our noble dataset and compared the performance of these systems with the newly developed CRFSEG model and also compared with TransSEG.
+6. Released trained CRFSEG and TransSEG models through GitHub for public use.
 
 ## Pre-trained model
 * A pre-trained model is stored in the trained_model folder.
