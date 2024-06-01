@@ -10,7 +10,7 @@ Model), an improvement upon the Faster R-CNN algorithm, incorporating arbitraril
 on challenging slap images. Here is the complete architecture of the Clarkson Rotated Fingerprint Segmentation (CRFSEG) system.
 ![CRESEG](imgs/crfsegArch.png)
 
-<img src="imgs/crfsegArch.png" width="300px" height="200px" alt="CRFSEG">
+<img src="imgs/crfsegArch.png" width="50%" height="50%" alt="CRFSEG">
 
 CRFSEG demonstrates consistent results across different age groups and effectively handles over-rotated
 slap images. We evaluated CRFSEG against the widely used slap segmentation systems NFSEG and VeriFinger. Additionally, we
