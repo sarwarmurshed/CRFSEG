@@ -35,3 +35,17 @@ The fingerprint dataset used in this research, collected under IRB-approved prot
 * The CRFSEG.ipynb file contains the necessary code to run the model. 
 * Run Jupiter notebook on your computer and execute the code inside CRFSEG.ipynb file.
 * The final cell of the notebook code will show the output images containing the labels and bounding boxes around the fingerprints.
+
+## Citation
+If you find this work useful in your research, please cite our paper:
+### Citation
+
+```bibtex
+@misc{murshed2023deep,
+      title={Deep Age-Invariant Fingerprint Segmentation System}, 
+      author={M. G. Sarwar Murshed and Keivan Bahmani and Stephanie Schuckers and Faraz Hussain},
+      year={2023},
+      eprint={2303.03341},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
