@@ -7,12 +7,19 @@ This repository is associated with a research initiative exploring deep learning
 In this research, we developed a deep learning-based method for generating arbitrarily angled bounding boxes to precisely localize and
 label fingerprints in both axis-aligned and over-rotated slap images. We present CRFSEG (Clarkson Rotated Fingerprint Segmentation
 Model), an improvement upon the Faster R-CNN algorithm, incorporating arbitrarily-angled bounding boxes for enhanced performance
-on challenging slap images. CRFSEG demonstrates consistent results across different age groups and effectively handles over-rotated
+on challenging slap images. Here is the complete architecture of the Clarkson Rotated Fingerprint Segmentation (CRFSEG) system.
+
+CRFSEG demonstrates consistent results across different age groups and effectively handles over-rotated
 slap images. We evaluated CRFSEG against the widely used slap segmentation systems NFSEG and VeriFinger. Additionally, we
 leveraged a transformer-based vision architecture to build TransSEG (Transformer-based Slap Segmentation System), a new model for
 further comparison of CRFSEG with state-of-the-art deep learning-based image segmentation models.
 
-## Key Features
+## Key features
+1. CRFSEG accurately segments slap fingerprint images, producing precise bounding boxes around each fingerprint and classifying them correctly.
+2. CRFSEG is age and orientation invariant, capable of processing slap images from various age groups and orientations.
+3. It is also easily deployable and adaptable to new datasets with minimal fine-tuning using a small number of images.  
+
+## Contributions
 
 1. Two new in-house large datasets named Combined and Challenging slap datasets contain 133,611 slap fingerprint images of children and adults.
 2. Annotated all slap fingerprint images manually to establish a ground-truth baseline for the accuracy assessment of different fingerprint segmentation systems.
@@ -41,11 +48,9 @@ If you find this work useful in your research, please cite our paper:
 ### Citation
 
 ```bibtex
-@misc{murshed2023deep,
-      title={Deep Age-Invariant Fingerprint Segmentation System}, 
-      author={M. G. Sarwar Murshed and Keivan Bahmani and Stephanie Schuckers and Faraz Hussain},
-      year={2023},
-      eprint={2303.03341},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{murshed2023deep,
+  title={Deep Age-Invariant Fingerprint Segmentation System},
+  author={Murshed, MG and Bahmani, Keivan and Schuckers, Stephanie and Hussain, Faraz},
+  journal={arXiv preprint arXiv:2303.03341},
+  year={2023}
 }
