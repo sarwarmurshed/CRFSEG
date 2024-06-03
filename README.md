@@ -33,7 +33,8 @@ The fingerprint dataset used in this research, collected under IRB-approved prot
 
 ## Code details
 * The crfseg folder contains resources related to the CRFSEG model
-* The transSEG folder contains resources related to the TransSEG model 
+* The transSEG folder contains resources related to the TransSEG model
+* We are currently only publishing code to run the CRFSEG and TransSEG models. We will publish the full code for training these models once our paper is accepted.  
 
 ## Citation
 If you find this work useful in your research, please cite our paper:
